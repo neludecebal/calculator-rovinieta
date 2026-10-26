@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Calculator restituire rovinieta 2026 | EuroBursaTransport</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 12px;
+    background: #090909;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculator {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    background: #090909;
+    border: 2px solid #ffd400;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.header {
+    background: #ffd400;
+    color: #000000;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .5px;
+}
+
+.content {
+    padding: 22px 18px 24px;
+}
+
+h1 {
+    color: #ffd400;
+    font-size: 27px;
+    font-weight: 900;
+    line-height: 1.25;
+    text-align: center;
+    margin: 5px 0 15px;
+}
+
+.description {
+    color: #eeeeee;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.description strong {
+    color: #ffd400;
+}
+
+label {
+    display: block;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 48px;
+    padding: 10px 12px;
+    background: #ffffff;
+    color: #111111;
+    border: 2px solid #bbbbbb;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+input:focus {
+    outline: 2px solid #ffd400;
+    outline-offset: 2px;
+}
+
+.field {
+    margin-bottom: 18px;
+}
+
+.date-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.date-row .field {
+    flex: 1 1 225px;
+    min-width: 0;
+    margin-bottom: 0;
+}
+
+.result-box {
+    background: #1b1b1b;
+    border: 1px solid #ffd400;
+    border-radius: 9px;
+    padding: 23px 10px;
+    text-align: center;
+}
+
+.result-label {
+    color: #ffd400;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .6px;
+}
+
+.result-value {
+    color: #ffffff;
+    font-size: 43px;
+    font-weight: 900;
+    line-height: 1.25;
+    margin: 12px 0;
+    overflow-wrap: anywhere;
+}
+
+.result-days {
+    color: #dddddd;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.error {
+    color: #ffaaaa;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.copy-button {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px 10px;
+    border: 0;
+    border-radius: 6px;
+    background: #ffd400;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.copy-button:hover {
+    background: #ffe45c;
+}
+
+.note {
+    color: #bbbbbb;
+    font-size: 11px;
+    line-height: 1.7;
+    text-align: center;
+    margin: 17px 0 0;
+}
+
+@media(max-width:600px) {
+
+    body {
+        padding: 5px;
+    }
+
+    .content {
+        padding: 18px 13px 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .result-value {
+        font-size: 33px;
+    }
+
+    .date-row {
+        gap: 16px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="calculator">
+
+    <div class="header">
+        CALCULATOR GRATUIT - RESTITUIRE ROVINIETA 2026
+    </div>
+
+    <div class="content">
+
+        <h1>
+            CATI BANI AI DE RECUPERAT DE LA CNAIR?
+        </h1>
+
+        <p class="description">
+            Ai platit rovinieta pentru un camion de peste 3,5 tone?<br>
+            Introdu suma achitata si perioada de valabilitate.<br>
+            <strong>Afli instant cat ai putea recupera!</strong>
+        </p>
+
+        <div class="field">
+
+            <label for="price">
+                TARIFUL ACHITAT, INCLUSIV TVA (LEI)
+            </label>
+
+            <input
+                id="price"
+                type="text"
+                inputmode="decimal"
+                value="7262,23"
+                autocomplete="off"
+            >
+
+        </div>
+
+        <div class="date-row">
+
+            <div class="field">
+
+                <label for="start">
+                    PRIMA ZI DE VALABILITATE
+                </label>
+
+                <input
+                    id="start"
+                    type="date"
+                    value="2026-07-01"
+                >
+
+            </div>
+
+            <div class="field">
+
+                <label for="end">
+                    ULTIMA ZI DE VALABILITATE
+                </label>
+
+                <input
+                    id="end"
+                    type="date"
+                    value="2027-06-30"
+                >
+
+            </div>
+
+        </div>
+
+        <div class="result-box" aria-live="polite">
+
+            <div class="result-label">
+                SUMA ESTIMATA INAINTE DE DEDUCERI
+            </div>
+
+            <div class="result-value" id="result">
+                5.431,75 lei
+            </div>
+
+            <div class="result-days" id="days">
+                273 zile neutilizate din 365 zile de valabilitate
+            </div>
+
+        </div>
+
+        <div class="error" id="error" role="status"></div>
+
+        <button
+            class="copy-button"
+            id="copy"
+            type="button"
+        >
+            COPIAZA CALCULUL
+        </button>
+
+        <p class="note">
+            Estimare pentru roviniete eligibile ale vehiculelor
+            de transport marfa de peste 3,5 tone.
+            Calculul porneste de la 1 octombrie 2026, inclusiv.
+            Nu include comisioane si nu reprezinta
+            o suma aprobata de CNAIR.
+        </p>
+
+    </div>
+
+</div>
+
+<script>
+
+(function(){
+
+    "use strict";
+
+    const price = document.getElementById("price");
+    const start = document.getElementById("start");
+    const end = document.getElementById("end");
+
+    const result = document.getElementById("result");
+    const days = document.getElementById("days");
+    const error = document.getElementById("error");
+    const copy = document.getElementById("copy");
+
+    const DAY = 86400000;
+
+    const CUTOFF = Date.UTC(2026, 9, 1);
+
+    let lastCalculation = null;
+
+    function parseDate(value) {
+
+        if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+            return null;
+        }
+
+        const parts = value.split("-").map(Number);
+
+        const timestamp = Date.UTC(
+            parts[0],
+            parts[1] - 1,
+            parts[2]
+        );
+
+        const d = new Date(timestamp);
+
+        if (
+            d.getUTCFullYear() !== parts[0] ||
+            d.getUTCMonth() !== parts[1] - 1 ||
+            d.getUTCDate() !== parts[2]
+        ) {
+            return null;
+        }
+
+        return timestamp;
+    }
+
+    function parseAmount(value) {
+
+        let text = String(value)
+            .trim()
+            .replace(/[\s\u00a0]/g, "");
+
+        if (text.includes(",")) {
+
+            text = text
+                .replace(/\./g, "")
+                .replace(",", ".");
+
+        } else if (/^\d{1,3}(\.\d{3})+$/.test(text)) {
+
+            text = text.replace(/\./g, "");
+
+        }
+
+        if (!/^\d+(\.\d+)?$/.test(text)) {
+            return NaN;
+        }
+
+        return Number(text);
+    }
+
+    function formatMoney(value) {
+
+        return new Intl.NumberFormat("ro-RO", {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        }).format(value) + " lei";
+
+    }
+
+    function calculate() {
+
+        const amount = parseAmount(price.value);
+
+        const first = parseDate(start.value);
+
+        const last = parseDate(end.value);
+
+        lastCalculation = null;
+
+        error.textContent = "";
+
+        if (!Number.isFinite(amount) || amount <= 0) {
+
+            result.textContent = "--";
+            days.textContent = "";
+
+            error.textContent =
+                "Introdu un tarif valid mai mare decat zero.";
+
+            return;
+        }
+
+        if (first === null || last === null) {
+
+            result.textContent = "--";
+            days.textContent = "";
+
+            error.textContent =
+                "Completeaza ambele date.";
+
+            return;
+        }
+
+        if (last < first) {
+
+            result.textContent = "--";
+            days.textContent = "";
+
+            error.textContent =
+                "Data expirarii este anterioara inceputului.";
+
+            return;
+        }
+
+        const totalDays =
+            Math.round((last - first) / DAY) + 1;
+
+        const unusedDays =
+            last >= CUTOFF
+                ? Math.round(
+                    (last - Math.max(first, CUTOFF)) / DAY
+                  ) + 1
+                : 0;
+
+        const refund =
+            amount * unusedDays / totalDays;
+
+        result.textContent = formatMoney(refund);
+
+        days.textContent =
+            unusedDays +
+            " zile neutilizate din " +
+            totalDays +
+            " zile de valabilitate";
+
+        if (unusedDays === 0) {
+
+            error.textContent =
+                "Nu exista zile neutilizate dupa 30.09.2026.";
+
+        }
+
+        lastCalculation = {
+            amount: amount,
+            start: start.value,
+            end: end.value,
+            totalDays: totalDays,
+            unusedDays: unusedDays,
+            refund: refund
+        };
+
+    }
+
+    function showCopied() {
+
+        copy.textContent = "CALCUL COPIAT!";
+
+        setTimeout(function() {
+
+            copy.textContent = "COPIAZA CALCULUL";
+
+        }, 2300);
+
+    }
+
+    function fallbackCopy(text) {
+
+        const textarea = document.createElement("textarea");
+
+        textarea.value = text;
+        textarea.style.position = "fixed";
+        textarea.style.opacity = "0";
+
+        document.body.appendChild(textarea);
+
+        textarea.select();
+
+        let success = false;
+
+        try {
+
+            success = document.execCommand("copy");
+
+        } catch (e) {
+
+            success = false;
+
+        }
+
+        document.body.removeChild(textarea);
+
+        if (success) {
+
+            showCopied();
+
+        } else {
+
+            error.textContent =
+                "Copierea nu a reusit. Selecteaza manual rezultatul.";
+
+        }
+
+    }
+
+    function copyCalculation() {
+
+        if (!lastCalculation) {
+
+            error.textContent =
+                "Introdu date valide pentru a copia calculul.";
+
+            return;
+        }
+
+        const c = lastCalculation;
+
+        const text =
+            "CALCUL RESTITUIRE ROVINIETA - EuroBursaTransport\n" +
+            "Tarif: " + formatMoney(c.amount) + "\n" +
+            "Valabilitate: " + c.start + " - " + c.end + "\n" +
+            "Zile neutilizate: " +
+            c.unusedDays + " din " + c.totalDays + "\n" +
+            "Estimare: " + formatMoney(c.refund) + "\n" +
+            "Inainte de comisioane.\n" +
+            "www.eurobursatransport.ro";
+
+        if (navigator.clipboard && window.isSecureContext) {
+
+            navigator.clipboard.writeText(text)
+                .then(showCopied)
+                .catch(function() {
+
+                    fallbackCopy(text);
+
+                });
+
+        } else {
+
+            fallbackCopy(text);
+
+        }
+
+    }
+
+    price.addEventListener("input", calculate);
+
+    start.addEventListener("input", calculate);
+    start.addEventListener("change", calculate);
+
+    end.addEventListener("input", calculate);
+    end.addEventListener("change", calculate);
+
+    copy.addEventListener("click", copyCalculation);
+
+    calculate();
+
+})();
+
+</script>
+
+</body>
+</html>
